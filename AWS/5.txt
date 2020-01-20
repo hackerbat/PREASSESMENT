@@ -1,0 +1,13 @@
+1. Create VPC :
+				Go to VPC console, Select your VPCs and click create VPC.
+				Enter VPC CIDR details Name tag , IPv4 CIDR block and click Yes.
+2. Create Public Subnet:
+				Select the VPC which you created just now under vpc dropdown box and in IPv4 CIDR block enter the required subnet for public subnet.
+3.Create Private Subnet :
+				Select the VPC which you created just now under vpc dropdown box and in IPv4 CIDR block enter the required subnet for private subnet. 
+4.Create and Attach “Internet Gateway”
+				Create and Attach “Internet Gateway” to our newly created VPC “MyVPC” and attach our VPC
+5.Add a route to Public Subnet
+				In order to make the instances created in Public subnet internet accessible, we will create a new “Route table”, that will establish connection between Public subnet and Internet Gateway.	
+
+				Create a new routing table for public subnet and associate this Public routing table with the public subnet we created to allow access to the traffic coming to this public subnet.			
