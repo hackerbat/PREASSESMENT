@@ -1,0 +1,8 @@
+1. Open aws console
+2.Select ec2 under compute section.
+3.In amazon ec2 dashboard choose launch instance.
+4.Select the type of images from amazon machine images list (AMI) which serves as templates for your instance.
+5.On choose an Instance page, choose the desired instance from the list of instances and click review and launch.
+6.Next click launch.
+7.Select the existing key pair or create your own key pair to to restrict access of the instnace you just created.
+8.Then click launch instances.

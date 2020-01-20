@@ -1,0 +1,18 @@
+1. Create an instance of S3 bucket to host our webiste 
+
+2.Name your s3 bucket as domain name so when the request comes to your s3 bucket,S3 uses the Host header in the request to route to the appropriate bucket.
+
+3.Configure your S3 bucket to host our static website.
+		
+		Navigate to S3 in the AWS Console.
+		Click into your bucket.
+		Click the “Properties” section.
+		Click the “Static website hosting” option.
+		Select “Use this bucket to host a website”.
+		Enter “index.html” as the Index document.
+
+By default, any new buckets created in an AWS account deny you the ability to add a public access bucket policy. So we have to configure our bucket to grant public access.
+
+4. Create a policy to grant access to everyone.
+5.Next we need to map our domain name (website name) with the S3 url name (CNAME record) inside DNS RECORDS.
+6. Upload your static webiste to s3 bucket.
