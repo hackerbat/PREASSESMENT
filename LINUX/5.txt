@@ -1,0 +1,12 @@
+There are lots of ways to search for a file 
+
+1. Using find command(it uses parameters like file name,meta data etc.) : 
+		
+			The general syntax for find is - find (options) starting/path expression 
+			for example - find /home/username/ -name "*.txt"
+
+
+2.Use Grep to Find Files Based on Content(it uses the content inside the files to search and extract accordingly) : 
+	
+			for example : find . -type f -exec grep "example" '{}' \; -print  or
+						  find . -type f -print | xargs grep "example" 			
