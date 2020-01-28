@@ -1,0 +1,15 @@
+Steps to create a service account and add IAM roles which grants access to GCE and GCS only:
+	1.Creating a service account
+	2.Create a project in the gcp console (if not any)
+	3.In the top-left corner of the GCP console, click Menu
+	4.Click IAM & Admin and then Service accounts.
+	5.Click Create Service Account and in the Service account name field, enter a name for the service account.
+	6 .Click Create
+	7.Click Continue and then Create Key.
+	8.Ensure the key type is set to JSON and click Create
+	9.Make a note of the location and name of this file
+	10.Click Close and then Done.
+	11.In the list of service accounts, click the email address that relates to the service account you created and click Edit.
+	12.Click View Domain Wide Delegation Client ID.
+	13.In the Product name for the consent screen field, enter a product name.
+	14.Enter a new email if needed, Click Save.

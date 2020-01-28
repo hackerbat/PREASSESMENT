@@ -1,0 +1,17 @@
+Steps to create GCE VM and deploy nginx
+1. Go to the VM instances page.
+2. Select your project and click Continue.
+3. Click the Create instance button.
+4. Specify a Name for your instance.
+5. Optionally, change the Zone for this instance.
+6. Select a Machine configuration for your instance.
+7. In the Boot disk section, click Change to configure your boot disk.
+8. Create a Boot Disk of size less than 2 tb
+9. In the OS images tab select in Image
+10. To permit HTTP or HTTPS traffic to the VM instance, select Allow HTTP traffic or Allow HTTPS traffic.
+11. To add secondary non-boot disks to your VM instance:
+12. Click the Management, security, disks, networking, sole tenancy section.
+13. Click the Disks tab.
+14. Under Additional disks click Add new disk.
+15. Specify a disk Name, Type, Source type, Mode, and Deletion rule.Click Done
+16. Click Create Button to start the instance
