@@ -1,0 +1,1 @@
+WORD1=<word-to-replace> WORD2=<replacing-word> sed 's/$WORD1/$WORD2/g' <input-file>.txt > <output-file>.txt
