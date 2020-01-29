@@ -1,0 +1,3 @@
+find *.txt 
+
+Use this command to Search for all the files that have a ‘.txt’ extension in the current working directory:
